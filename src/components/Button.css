@@ -25,3 +25,18 @@
     transform: translateY(.1px);
     box-shadow: 0 1px #666;
 }
+@media only screen and (max-width: 920px){
+    .button button{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 830px){
+    .button button{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 430px){
+    .button button{
+        font-size: 1.2rem;
+    }
+}

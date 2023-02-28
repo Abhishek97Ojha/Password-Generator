@@ -21,3 +21,18 @@
     padding-left: 1rem;
     outline: none;
 }
+@media only screen and (max-width: 920px){
+    .length select{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 830px){
+    .length select{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 430px){
+    .length select{
+        font-size: 1.2rem;
+    }
+}
