@@ -1,7 +1,8 @@
 .App {
+  background-color: #e9ecef;
   width: 100svw;
   height: 100svh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
