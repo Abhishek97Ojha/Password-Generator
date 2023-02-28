@@ -1,0 +1,13 @@
+.length{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.length select{
+    width: 25%;
+    height: 50%;
+    font-size: 1rem;
+}
