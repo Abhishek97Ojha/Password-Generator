@@ -1,9 +1,11 @@
 import React from "react";
 import "./Button.css";
-const Button = ({name}) => {
+const Button = ({ genPass,onClick}) => {
   return (
     <div className="button">
-      <button>{name}</button>
+      <button onClick={()=>{
+        onClick()
+      }}>{genPass?"Password Generated":"Generate Password"}</button>
     </div>
   );
 };

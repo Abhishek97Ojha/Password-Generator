@@ -1,23 +1,13 @@
 import React from "react";
 import "./Check.css";
-const Checkbox = () => {
+const Checkbox = ({ label , onChange}) => {
   return (
     <div className="check">
       <div className="Case">
-        <input type="checkbox" />
-        <label>Include uppercase letters</label>
-      </div>
-      <div className="Case">
-        <input type="checkbox" />
-        <label>Include lowercase letters</label>
-      </div>
-      <div className="Case">
-        <input type="checkbox" />
-        <label>Include numbers</label>
-      </div>
-      <div className="Case">
-        <input type="checkbox" />
-        <label>Include symbols</label>
+        <input type="checkbox" onChange={()=>{
+        onChange()
+      }}/>
+        <label>{label}</label>
       </div>
     </div>
   );
